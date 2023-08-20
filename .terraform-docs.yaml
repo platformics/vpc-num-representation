@@ -24,6 +24,13 @@ content: |-
   The idea of this project is create a especific number each cloud regions.
   10.`X``Y`.0.0 where X is our number and network will be set Y.
 
+  ```bash
+    module "vcp_num_representation" {
+    source = "git::https://github.com/platformics/vpc-num-representation.git"
+    cloud  = var.cloud
+  }
+  ```
+  
   ## Create Documentation
 
   To create a documentation please write the descripton in .terraform-docs.yaml at Header block.
