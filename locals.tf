@@ -1,17 +1,3 @@
-###
-# File: locals.tf
-# File Created: Monday, 7th August 2023 8:50:48 am
-# -----
-# Last Modified: Friday August 11th 2023 8:36:49 am
-# Modified By: David Puziol Prata <davidpuziol@gmail.com>
-# -----
-# Copyright (c) 2023 SmartPag Systems, Inc.
-# 
-# The right to copy, distribute, modify, or otherwise make use of this software may be licensed
-# only pursuant to the terms of an applicable SmartPag license agreement.
-# -----
-###
-
 locals {
   region_number = {
 
